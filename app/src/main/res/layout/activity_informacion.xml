@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Informacion"
+    android:orientation="vertical">
+    <include layout="@layout/mitoolbar"
+        android:id="@+id/mitoolbar">
+    </include>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="245sp"
+        app:srcCompat="@drawable/imgconfiguracion"
+        tools:srcCompat="@drawable/imgconfiguracion" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:textSize="25sp"
+        android:text="CREDITOS"
+        android:gravity="center_vertical|center_horizontal"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="20sp"
+        android:gravity="center_horizontal"
+        android:text="Juan\nEscobar Mendoza\nDiseño y Desarrollo de Software\nSección A" />
+</LinearLayout>
